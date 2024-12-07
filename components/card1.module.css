@@ -1,0 +1,59 @@
+.icons {
+    position: absolute;
+    top: calc(50% - 11.5px);
+    right: 16px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .imageIcon {
+    position: absolute;
+    height: calc(100% - 16px);
+    top: 8px;
+    bottom: 8px;
+    left: 8px;
+    border-radius: 6px;
+    max-height: 100%;
+    width: 67px;
+    object-fit: cover;
+  }
+  
+  .title {
+    position: relative;
+    line-height: 160%;
+  }
+  
+  .detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 14px;
+    color: #c4c4cc;
+  }
+  
+  .info {
+    position: absolute;
+    top: calc(50% - 26.5px);
+    left: 91px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+  }
+  
+  .item {
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    background-color: #29292e;
+    height: 83px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Roboto;
+  }
+  
