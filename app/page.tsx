@@ -1,4 +1,4 @@
-import Cabezera from "@/components/cabezera"; // Importa tu componente correctamente
+import Cabezera from "@/components/cabezera";
 
 export default async function Home() {
   return (
